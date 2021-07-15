@@ -1,0 +1,1059 @@
+*{
+    padding: 0;  
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+}
+
+.logoimg{
+    width: 180px;
+    height: 100px;
+}
+
+.loginbtn{
+position: absolute;
+background-color: #1C86D6;
+border: none;
+color: white;
+text-decoration: none;
+text-align: center;
+font-size: 17px;
+margin: 4px 2px;
+left: 1220px;
+top: 20px;
+border-radius: 60px;
+height: 40px;
+width: 120px;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background:black;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.container .img{
+    background: url(img/cover.jpg);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+
+.container .overlay{
+    height: 100vh;
+    width: 100%;
+    background: #4E4E4E;
+    opacity: .5;
+    position: absolute;
+}
+
+.titleone{
+    color: white;
+    position: absolute;
+    padding-bottom: 200px;
+    left: 100px;
+}
+.sportone{
+    width: 300px;
+    height: 430px;
+    background: white;
+    border-radius: 6px;
+    position: absolute;
+    left: 50px;
+    top:100px
+}
+.upper-container{
+    height: 240px;
+    background: black;
+}
+.imageone-container img{
+    width: 300px;
+    height: 240px;
+}
+
+.teamcircle{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #1C86D6;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-left: 100px;
+    margin-bottom: -120px;
+    top:190px;
+}
+
+
+.fas{
+    position: absolute;
+    bottom: 170px;
+    left: 100px;
+    font-size: 45px;
+    color: white;   
+}
+.cardtitleone{
+   position: absolute;
+   bottom:100px;
+   left: 72px;
+}
+.cardparaghraphone{
+    position: absolute;
+    left: 52px;
+    text-align: center;
+    color: #9D9898;
+    bottom: 20px;
+}
+.cardlearnbtn{
+    position: absolute;
+    border: 1px solid #1C86D6;
+    background-color: white;
+    color: #1C86D6;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    left: 70px;
+    top:420px;
+}
+
+.lower-container{
+    height: 250px;
+    background: white;
+}
+.sporttwo{
+    width: 300px;
+    height: 430px;
+    background: white;
+    border-radius: 6px;
+    position: absolute;
+    left: 370px;
+    top:100px
+}
+.upper-container{
+    height: 240px;
+    background: black;
+}
+.imageone-container img{
+    width: 300px;
+    height: 240px;
+}
+
+.teamcircle{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #1C86D6;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-left: 100px;
+    margin-bottom: -120px;
+    top:190px;
+}
+.fas{
+    position: absolute;
+    bottom: 170px;
+    left: 120px;
+    font-size: 45px;
+    color: white;   
+}
+.cardtitleone{
+   position: absolute;
+   bottom:100px;
+   left: 72px;
+   text-transform: uppercase;
+}
+.cardparaghraphone{
+    position: absolute;
+    left: 52px;
+    text-align: center;
+    color: #9D9898;
+    bottom: 20px;
+}
+.cardlearnbtn{
+    position: absolute;
+    border: 1px solid #1C86D6;
+    background-color: white;
+    color: #1C86D6;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    left: 70px;
+    top:420px;
+}
+
+.lower-container{
+    height: 250px;
+    background: white;
+}
+.paraghraphone{
+    color: white;
+    position: absolute;
+    padding-bottom: 70px;
+    left: 100px;
+}
+
+.sportthree{
+    width: 300px;
+    height: 430px;
+    background: white;
+    border-radius: 6px;
+    position: absolute;
+    left: 690px;
+    top:100px
+}
+.upper-container{
+    height: 240px;
+    background: black;
+}
+.imageone-container img{
+    width: 300px;
+    height: 240px;
+}
+
+.teamcircle{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #1C86D6;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-left: 100px;
+    margin-bottom: -120px;
+    top:190px;
+}
+.fas{
+    position: absolute;
+    bottom: 170px;
+    left: 130px;
+    font-size: 45px;
+    color: white;   
+}
+.cardtitleone{
+   position: absolute;
+   bottom:100px;
+   left: 72px;
+   text-transform: uppercase;
+}
+.cardparaghraphone{
+    position: absolute;
+    left: 52px;
+    text-align: center;
+    color: #9D9898;
+    bottom: 20px;
+}
+.cardlearnbtn{
+    position: absolute;
+    border: 1px solid #1C86D6;
+    background-color: white;
+    color: #1C86D6;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    left: 70px;
+    top:420px;
+}
+
+.lower-container{
+    height: 250px;
+    background: white;
+}
+.paraghraphone{
+    color: white;
+    position: absolute;
+    padding-bottom: 70px;
+    left: 100px;
+}
+.sportfour{
+    width: 300px;
+    height: 430px;
+    background: white;
+    border-radius: 6px;
+    position: absolute;
+    left: 1020px;
+    top:100px
+}
+.upper-container{
+    height: 240px;
+    background: black;
+}
+.imageone-container img{
+    width: 300px;
+    height: 240px;
+}
+
+.teamcircle{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #1C86D6;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-left: 100px;
+    margin-bottom: -120px;
+    top:190px;
+}
+.fas{
+    position: absolute;
+    bottom: 170px;
+    left: 130px;
+    font-size: 45px;
+    color: white;   
+}
+.cardtitlefour{
+   position: absolute;
+   bottom:100px;
+   left: 100px;
+   text-transform: uppercase;
+}
+.cardparaghraphone{
+    position: absolute;
+    left: 52px;
+    text-align: center;
+    color: #9D9898;
+    bottom: 20px;
+}
+.cardlearnbtn{
+    position: absolute;
+    border: 1px solid #1C86D6;
+    background-color: white;
+    color: #1C86D6;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    left: 70px;
+    top:420px;
+}
+
+.lower-container{
+    height: 250px;
+    background: white;
+}
+.paraghraphone{
+    color: white;
+    position: absolute;
+    padding-bottom: 70px;
+    left: 100px;
+}
+.fa-play{
+    position: absolute;
+    top:10px;
+    left: 20px;
+    font-size: 19px;
+}
+.btntext{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    padding-left: 30px;
+}
+.watchvideo{
+    position: absolute;
+    background-color: #1C86D6;
+    border: none;
+    margin: 4px 2px;
+    left: 100px;
+    top: 330px;
+    border-radius: 60px;
+    height: 40px;
+    width: 170px;
+}
+
+.titletwo{
+    color: #4E4E4E;
+    text-align: center;
+    font-size: 27px;
+}
+
+.containertwo{
+    display: flex;
+    height: 650px;
+    width: 100%;
+    background:#F5F5F5;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -25px;
+}
+
+#sportimg{
+    width: 600px;
+    height: 450px;
+    padding-top: 70px;
+}
+
+.titlethree{
+    position: absolute;
+    color: #1C86D6;
+    padding-left: 650px;
+    top: 1470px;
+}
+
+.subtitleone{
+    position: absolute;
+    color:#4E4E4E;
+    padding-left: 650px;
+    top: 1515px;
+}
+
+.subtitletwo{
+    position: absolute;
+    color:#4E4E4E;
+    padding-left: 650px;
+    top: 1540px;
+}
+
+.paraghraphtwo{
+    position: absolute;
+    color:#4E4E4E;
+    padding-left: 650px;
+    top:1580px;
+}
+
+
+.paraghraphthree{
+    position: absolute;
+    color:#4E4E4E;
+    padding-left: 650px;
+    top:1650px;    
+}
+
+.joinbtn{
+    position: absolute;
+    background-color: #1C86D6;
+    border: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    left: 650px;
+    top:1750px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+}
+
+.learnbtn{
+    position: absolute;
+    border: 1px solid #1C86D6;
+    background-color: white;
+    color: #1C86D6;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    left: 820px;
+    top:1750px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+}
+
+.titlefour{
+    position: absolute;
+    color: #1C86D6;
+    padding-left: 30px;
+    top: 1888px;
+}
+
+.subtitlethree{
+    position: absolute;
+    color:#4E4E4E;
+    padding-left: 30px;
+    top: 1935px;
+}
+
+.subtitlefour{
+    position: absolute;
+    color:#4E4E4E;
+    padding-left: 30px;
+    top:1960px;
+}
+
+.paraghraphfour{
+    position: absolute;
+    color:#4E4E4E;
+    padding-left: 30px;
+    top:1992px;
+}
+
+.paraghraphfive{
+    position: absolute;
+    color:#4E4E4E;
+    padding-left: 30px;
+    top:2065px;
+}
+
+.contactbtn{
+    position: absolute;
+    background-color: #1C86D6;
+    border: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    left: 30px;
+    top: 2155px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+}
+
+.learntwobtn{
+    position: absolute;
+    border: 1px solid #1C86D6;
+    background-color: white;
+    color: #1C86D6;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    left:220px;
+    top: 2155px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+}
+
+#soforximg{
+    position: absolute;
+    width: 700px;
+    height: 380px;
+    right: 10px; 
+}
+
+.rec{
+    fill: #1C86D6;
+    top: 2300px;
+    right: 0.35px;
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlefive{
+    color: white;
+    position: absolute;
+    top: 2390px;
+    padding-left: 600px;
+}
+
+.subtitlefive{
+    color: white;
+    position: absolute;
+    top:2300px;
+    padding-left: 500px;
+}
+
+.cards{
+    position: relative;
+    display: inline-block;
+    display: flex;
+
+}
+
+.cardone{
+    position: relative;
+    width: 20%;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    top: 600px;
+    left: 100px;
+    border-bottom: 2px solid #707070;
+
+}
+
+.imageone img{
+    width: 100%;
+    height: 330px;
+}
+
+.cardteamone{
+    text-align: center;
+    padding-top: 20px;
+    color: #3E3E3E;
+}
+
+.descriptionone{
+    text-align: center;
+    padding-top: 10px;
+    color: #3E3E3E;
+}
+
+.cardtwo{
+    position: relative;
+    width: 20%;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    top: 600px;
+    left: 250px;
+    border-bottom: 2px solid #707070;
+
+}
+
+.imagetwo img{
+    width: 100%;
+    height: 330px;
+}
+
+.cardtitletwo{
+    text-align: center;
+    padding-top: 20px;
+    color: #3E3E3E;
+}
+
+.descriptiontwo{
+    text-align: center;
+    padding-top: 10px;
+    color: #3E3E3E;
+}
+
+.cardthree{
+    position: relative;
+    width: 20%;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    top: 390px;
+    left: 940px;
+    border-bottom: 2px solid #707070;
+
+}
+
+.imagethree img{
+    width: 100%;
+    height: 330px;
+}
+
+.cardtitlethree{
+    text-align: center;
+    padding-top: 20px;
+    color: #3E3E3E;
+}
+
+.descriptionthree{
+    text-align: center;
+    padding-top: 10px;
+    color: #3E3E3E;
+}
+
+.cardfour{
+    position: relative;
+    width: 20%;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    top: 700px;
+    left: 100px;
+    border-bottom: 2px solid #707070;
+
+}
+
+.imagefour img{
+    width: 100%;
+    height: 330px;
+}
+
+.cardteamfour{
+    text-align: center;
+    padding-top: 20px;
+    color: #3E3E3E;
+}
+
+.descriptionfour{
+    text-align: center;
+    padding-top: 10px;
+    color: #3E3E3E;
+}
+
+.cardfive{
+    position: relative;
+    width: 20%;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    top: 500px;
+    left: 520px;
+    border-bottom: 2px solid #707070;
+
+}
+
+.imagefive img{
+    width: 100%;
+    height: 330px;
+}
+
+.cardtitlefive{
+    text-align: center;
+    padding-top: 20px;
+    color: #3E3E3E;
+}
+
+.descriptionfive{
+    text-align: center;
+    padding-top: 10px;
+    color: #3E3E3E;
+}
+
+.cardsix{
+    position: relative;
+    width: 20%;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    top: 300px;
+    left: 940px;
+    border-bottom: 2px solid #707070;
+
+}
+
+.imagesix img{
+    width: 100%;
+    height: 330px;
+}
+
+.cardtitlesix{
+    text-align: center;
+    padding-top: 20px;
+    color: #3E3E3E;
+}
+
+.descriptionsix{
+    text-align: center;
+    padding-top: 10px;
+    color: #3E3E3E;
+}
+
+.contacttitle{
+    padding-top: 600px;
+    text-align: center;
+    color: #4E4E4E;
+}
+.Circles{
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+    background:#F5F5F5;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -40px;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.circleone{
+    width: 100px;
+    height: 100px;
+    background: #1C86D6;
+    border-radius: 50%;
+}
+
+.locationicon{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.textone{
+    text-align: center;
+    color: #4E4E4E;
+    padding-top: 40px;
+}
+.texttwo{
+    text-align: center;
+    color: #4E4E4E;
+    padding-top: 10px;
+}
+
+.textthree{
+    text-align: center;
+    color: #4E4E4E;
+    padding-top: 10px;
+}
+
+.circletwo{
+    width: 100px;
+    height: 100px;
+    background: #1C86D6;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: -100px;
+
+}
+.emailicon{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.circlethree{
+    width: 100px;
+    height: 100px;
+    background: #1C86D6;
+    border-radius: 50%;
+    margin-left: 570px;
+    margin-top: -100px;
+
+}
+.phoneicon{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.circlefour{
+    width: 100px;
+    height: 100px;
+    background: #1C86D6;
+    border-radius: 50%;
+    margin-left: 850px;
+    margin-top: -100px;
+
+}
+.timeicon{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.sponsorsttitle{
+    padding-top: 100px;
+    text-align: center;
+    color: #4E4E4E;
+}
+
+.sponsors{
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    background:#F5F5F5;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -40px;
+    padding-top: 400px;
+    padding-left: 200px;
+}
+
+.arrowone{
+    position: absolute;
+    height:30px;
+    width: 30px;
+    bottom:160px;
+    left: 30px;
+}
+
+.brandone{
+    position: absolute;
+    height: 150px;
+    width: 250px;
+    top:140px;
+    left: 100px;
+}
+.brandtwo{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    top:170px;
+    right:600px;
+}
+.brandthree{
+    position: absolute;
+    height: 150px;
+    width: 250px;
+    top:140px;
+    right: 180px;
+}
+.arrowtwo{
+    position: absolute;
+    height:30px;
+    width: 30px;
+    top:215px;
+    right: 30px;
+
+}
+.jointtitle{
+    padding-top: 100px;
+    text-align: center;
+    color: #4E4E4E;
+}
+
+.desc{
+    text-align: center;
+    color: #4E4E4E;
+    padding-top: 20px;
+}
+
+#email{
+    position: absolute;
+    left: 420px;
+    border-radius: 10px 0px 0px 10px;
+    border:2px  solid #ccc;
+    margin-top: 50px;
+    width: 400px;
+    height: 50px;
+}
+
+#signup{
+    position: absolute;
+    right:420px;
+    top: 4673px;
+    background-color: #1C86D6;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 4px 2px;
+    border-radius: 0px 10px 10px 0px;;
+    height: 50px;
+    width: 110px;
+}
+
+.footercontainer{
+    width: 100%;
+    height: 50vh;
+    background:#1C86D6;
+    margin-top: 200px;
+}
+
+.gotgamelogo{
+    width: 200px;
+    height: 100px;
+}
+
+.catetitle{
+    color: white;
+    padding-left: 30px;
+}
+.listone{
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.listtwo{
+    color: white;
+    padding-left: 100px;
+    margin-top: -65px;
+}
+
+.infotitle{
+    color: white;
+    padding-left: 350px;
+    margin-top: -115px;
+}
+
+.listthree{
+    color: white;
+    padding-left: 350px;
+    margin-top: 20px;
+}
+.copyright{
+    color: white;
+    padding-left: 40px;
+    margin-top: 90px;
+    font-size: 15px;
+}
+
+.linkone{
+    position: absolute;
+    color:white;
+    padding-left: 290px;
+    margin-top: -20px;   
+}
+.linktwo{
+    position: absolute;
+    color:white;
+    padding-left: 400px;
+    margin-top: -20px;   
+}
+.linkthree{
+    position: absolute;
+    color:white;
+    padding-left:520px;
+    margin-top: -20px;   
+}
+.linkfour{
+    position: absolute;
+    color:white;
+    padding-left:620px;
+    margin-top: -20px;   
+}
+
+.followtitle{
+    color:white;
+    padding-left:1000px;
+    margin-top: -220px;
+}
+.socialicons{
+    padding-top: 20px;
+}
+.linkicon{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 1100px;
+}
+.fbicon{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 1050px;
+    
+}
+.twicon{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 1000px;
+}
+.appstore{
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    margin-top: 35px;
+    left: 980px;
+}
+.googleplay{
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    margin-top: 100px;
+    left: 980px;
+}
